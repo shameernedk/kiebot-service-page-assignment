@@ -74,6 +74,8 @@
 }
 .container .main1 .box {
     display: grid;
+    background-color: #4cd4f7;
+    box-shadow: 10px 10px 5px #aaaaaa;
     grid-template-columns: 1fr 3fr;
     width: 550px;
     height: 280px;
@@ -83,10 +85,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
     padding-right: 10px;
+    border-radius: 20px;
 }
+.container .main1 .box:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+
+
 .container .main1 .box img {
     height: 280px;
     object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 
